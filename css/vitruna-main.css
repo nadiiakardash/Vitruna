@@ -1,0 +1,453 @@
+/* .vitruna-phone_img {
+    margin-left: -8px;
+    float: left;
+    width: 400px;
+   
+    margin-bottom: -8px;
+} */
+
+/* .vitruna-phone_right {
+    float: right;
+
+} */
+
+.vitruna_main {
+    display: flex;
+    justify-content: center;
+    background: white;
+    z-index: 1;
+    position: relative;
+    width: 1100px;
+    bottom: 0;
+
+}
+
+.vitruna_phone-ad {
+    background: url(../img/Фоновареклама.png);
+
+    width: 400px;
+    height: 1290px;
+    position: absolute;
+    left: 0;
+}
+
+.vitruna_phone-right {
+    background: url(../img/Фоновареклама.png);
+    width: 400px;
+    height: 1290px;
+    position: absolute;
+    right: 0;
+    top: 278px;
+
+}
+
+.vitruna_search-input input {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    width: 240px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 9px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #424242;
+}
+
+.vitruna_search-input input::placeholder {
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    color: #666666;
+}
+
+.vitruna_search-input button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 23px;
+
+    outline: none;
+}
+
+.vitruna_left-list {
+    list-style-type: none;
+    margin-bottom: 24px;
+
+}
+
+.vitruna_left-list li {
+
+    margin-bottom: 12px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+.vitruna_left-list li svg {
+    margin-right: 10px;
+}
+
+/* .vitrula_hr-list{
+    width: 840px;
+height: 840px;
+border: 1px solid rgba(120, 120, 120, 0.4);
+
+} */
+.vitruna_center-block {
+    width: 270px;
+}
+
+.vitruna_text-center {
+    border-left: 1px solid rgba(120, 120, 120, 0.4);
+    padding-left: 14px;
+    margin-top: 20px;
+    padding-top: 1px;
+    width: 590px;
+    height: 832px;
+    font-family: Ubuntu;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.vitruna_text-center b {
+    font-family: Roboto;
+
+    font-weight: bold;
+
+}
+
+.vitruna_advert-miks {
+    margin-left: 35px;
+    margin-top: 11px;
+}
+
+.vitruna_footer-txt {
+    margin-top: 45px;
+}
+
+.vitruna_footer-txt div {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.vitruna_adver-advert {
+    width: 180px;
+    margin-top: 31px;
+    margin-left: 14px;
+}
+
+.vitruna_adver-advert img {
+    margin-bottom: 25px;
+}
+
+.vitruna_bottom {
+    width: 1100px;
+    height: 24px;
+
+    background: white;
+    z-index: 3;
+    position: absolute;
+    bottom: -18px;
+}
+
+.vitruna_mobile-list {
+    display: none;
+}
+
+
+.vitruna__checkfield {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.vitruna__checkfield input {
+    display: none;
+}
+
+.vitruna__checkfield label {
+    margin: 0;
+    padding-left: 30px;
+    cursor: pointer;
+    color: #000;
+    font-size: 14px;
+    line-height: 21px;
+    position: relative;
+    font-family: Ubuntu;
+}
+
+.vitruna__checkfield label:after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+
+
+}
+
+.vitruna__checkfield input:checked+label:after {
+    background-image: url("../img/check-box.png");
+    background-repeat: no-repeat;
+    width: 22px;
+    height: 19px;
+
+    border: none;
+
+}
+
+.vitruna__checkfield input:checked+label {
+
+    font-weight: bold;
+
+    color: #FF0000;
+}
+
+#vitruna_choose-elem {
+    width: 375px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 1px solid #666666;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+#vitruna_check-list {
+    display: none;
+}
+
+.vitruna_buy {
+    display: none;
+    margin-left: 20px;
+}
+.vitruna_list-margin{
+    margin-top: 2.5px;
+}
+ 
+@media (max-width: 1890px) {
+    .vitruna_bottom {
+
+        bottom: -19px;
+    }
+}
+
+@media (max-width: 1162px) {
+
+    .vitruna_main {
+
+        width: 100%;
+    }
+
+    .vitruna_bottom {
+        display: none;
+    }
+
+    .vitruna_phone-ad {
+        display: none;
+    }
+
+    .vitruna_phone-right {
+        display: none;
+
+    }
+
+    .vitruna_center-block {
+        width: 240px;
+    }
+
+    .vitruna_text-center {
+        width: 450px;
+        height: 959px;
+        padding-left: 7px;
+        margin-left: 10px;
+    }
+
+    .vitruna_advert-miks {
+        margin-left: 15px;
+        margin-top: 19px;
+        width: 450px;
+    }
+
+    .vitruna_adver-advert {
+        width: 180px;
+        margin-top: 31px;
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 909px) {
+    .vitruna_adver-advert {
+        display: none;
+    }
+
+    .vitruna_text-center {
+        width: 450px;
+        height: 959px;
+        padding-left: 7px;
+        margin-left: 10px;
+    }
+
+    .vitruna_footer-txt {
+        margin-top: 25px;
+        position: absolute;
+
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .vitruna_footer-txt div {
+        text-align: center;
+        font-size: 12px;
+        line-height: 15px;
+
+    }
+
+}
+
+@media (max-width: 725px) {
+    .vitruna_text-center {
+        width: 300px;
+        height: 85%;
+        padding-left: 7px;
+        margin-left: 10px;
+    }
+
+    .vitruna_advert-miks {
+        margin-left: 15px;
+        margin-top: 19px;
+        width: 300px;
+    }
+
+    .vitruna_search-input input {
+        width: 190px;
+
+    }
+
+    .vitruna_center-block {
+        width: 190px;
+    }
+}
+
+@media (max-width: 532px) {
+    .vitruna_search-input input {
+        width: 375px;
+
+    }
+    .vitruna_text-center {
+        margin-top: -6px;
+        width: 375px;
+        height: 85%;
+        padding-left: 7px;
+        margin-left: 10px;
+    }
+    .vitruna_main {
+        display: flex;
+        flex-direction: column;
+        width: 375px;
+        align-items: center;
+    }
+
+    .vitruna_center-block {
+        width: 375px;
+    }
+
+    .vitruna_left-list {
+        display: none;
+    }
+
+    .vitruna_img-none {
+        display: none;
+    }
+
+    .vitruna_advert-miks {
+        display: none;
+    }
+
+    .vitruna_footer-txt {
+        margin-top: 25px;
+        position: absolute;
+
+        left: 0;
+        transform: none;
+    }
+
+    .vitruna_footer-txt div {
+        text-align: center;
+        font-size: 11px;
+        line-height: 15px;
+
+    }
+
+    .vitruna_text-center {
+        border: none;
+    }
+
+    .vitruna_mobile-list {
+        display: block;
+    }
+}
+@media (max-width:392px) {
+    .vitruna_search-input input {
+        width: 300px;
+    }
+
+    .vitruna_main {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        align-items: center;
+    }
+
+    .vitruna_center-block {
+        width: 300px;
+    }
+    #vitruna_choose-elem {
+        width: 300px;
+        height: 30px;
+    
+    
+    }
+    .vitruna_text-center {
+        width: 300px;
+        height: 85%;
+        padding-left: 7px;
+        margin-left: 10px;
+    }
+}
