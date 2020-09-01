@@ -12,7 +12,9 @@ main {
      width: 100%;
 
 }
-
+.advert-vitruna{
+     cursor: pointer;
+}
 .slider-for {
      width: 530px;
      height: 350px;
@@ -153,7 +155,9 @@ main {
      position: absolute;
      color: #000000;
 }
-
+.vitruna_contact-inf img{
+     cursor: pointer;
+}
 .vitruna-networks {
 
      margin-left: 144px;
@@ -233,6 +237,9 @@ main {
 }
 #vitruna-mb-ad{
      display: none;
+}
+.vitruna-buton{
+     cursor: pointer;
 }
 @media (max-width: 1141px) {
      .vitruna-container {
