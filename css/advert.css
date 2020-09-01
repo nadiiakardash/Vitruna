@@ -1,0 +1,423 @@
+.vitruna-container {
+     background: white;
+     width: 1120px;
+     margin: 0 auto;
+     padding-left: 19px;
+     box-sizing: border-box;
+     display: flex;
+}
+
+main {
+     background: #e5e5e5;
+     width: 100%;
+
+}
+
+.slider-for {
+     width: 530px;
+     height: 350px;
+}
+
+.slider-nav {
+     margin-top: 20px;
+     width: 520px;
+     height: 80px;
+     margin-left: 10px;
+}
+
+.slider-nav img {
+     width: 98px;
+     height: 80px;
+}
+
+.vitruna-prev {
+     position: absolute;
+     cursor: pointer;
+     margin-top: 145px;
+     z-index: 1;
+}
+
+.vitruna-next {
+     cursor: pointer;
+     margin-left: 480px;
+     margin-top: 141px;
+     position: absolute;
+     z-index: 1;
+     transform: rotate(180deg);
+}
+
+.vitruna_description h5 {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 20px;
+     color: #000000;
+}
+
+.vitruna_description p {
+     font-family: Ubuntu;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 20px;
+     color: #000000;
+     width: 530px;
+     margin-top: -20px;
+     margin-bottom: 40px;
+}
+
+.vitruna_un-block {
+     margin-left: -25px;
+}
+
+.vitruna-left-contain {
+     width: 530px;
+}
+
+.vitruna_general-gescrip {
+     margin-top: 40px;
+     padding-left: 30px;
+
+}
+
+.vitruna_general-gescrip h2 {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 20px;
+     line-height: 20px;
+
+     text-transform: uppercase;
+
+     color: #000000;
+}
+
+.vitruna_general-gescrip p:first-of-type {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 24px;
+     line-height: 20px;
+     text-transform: uppercase;
+     color: #FF0000;
+}
+
+.vitruna_general-gescrip p {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 13px;
+     line-height: 20px;
+     color: #666666;
+}
+
+.vitruna_general-gescrip p span {
+     margin-left: 6px;
+}
+
+.vitruna_general-gescrip div {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 13px;
+     line-height: 20px;
+     color: #666666;
+     margin-top: -10px;
+}
+
+.vitruna_general-gescrip hr {
+     width: 530px;
+     height: 1px;
+     border: none;
+     background: rgba(120, 120, 120, 0.4);
+     margin-bottom: 15px;
+}
+
+.vitruna-phone_icon {
+     position: absolute;
+     margin-left: -35px;
+}
+
+.vitruna_contact-inf {
+     margin-left: 35px;
+     padding-top: 12px;
+}
+
+.vitruna_contact-inf span {
+     font-family: Ubuntu;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 18px;
+     line-height: 24px;
+     position: absolute;
+     color: #000000;
+}
+
+.vitruna-networks {
+
+     margin-left: 144px;
+     margin-right: 7px;
+
+}
+
+.vitruna-number-inf {
+     padding-top: 42px;
+}
+
+.vitruna_author {
+     padding-top: 50px;
+}
+
+.vitruna_author img {
+     margin-right: 10px;
+}
+
+.vitruna_author b {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 20px;
+     /* identical to box height, or 143% */
+
+
+     color: #666666;
+}
+
+.vitruna_author span {
+     margin-left: 5px;
+     font-family: Roboto;
+     font-size: 14px;
+     line-height: 20px;
+     color: #666666;
+}
+
+.vitruna_short-descr div {
+     width: 444px;
+     font-family: Ubuntu;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 20px;
+     color: #000000;
+
+}
+
+#short-descr {
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 14px;
+     line-height: 20px;
+     color: #000000;
+     margin-bottom: 8px;
+}
+
+.vitruna_short-descr img {
+     margin-top: 20px;
+}
+
+.vitruna_white-element {
+     width: 550px;
+}
+
+.vitruna_footer-txt {
+     background: white;
+     width: 1120px;
+     margin: 0 auto;
+
+}
+.vitruna-mobile-adver{
+     display: none;
+}
+#vitruna-mb-ad{
+     display: none;
+}
+@media (max-width: 1141px) {
+     .vitruna-container {
+          width: 100%;
+          margin: 0 auto;
+justify-content: center;
+     }
+     .slider-for {
+          width: 374px;
+          height: 250px;
+     }
+
+     .slider-for img {
+
+          height: 250px;
+     }
+
+     .slider-nav {
+          margin-top: 20px;
+          width: 374px;
+          margin-left: 10px;
+     }
+
+     .slider-nav img {
+          width: 66px;
+          height: 60px;
+     }
+
+     .vitruna-prev {
+
+          margin-top: 105px;
+
+     }
+
+     .vitruna-next {
+          margin-top: 105px;
+          margin-left: 320px;
+
+     }
+     
+.vitruna_description p {
+ 
+     width: 374px;
+  
+}
+ 
+
+.vitruna-left-contain {
+     width: 374px;
+}
+.advert-vitruna{
+     display: none;
+}
+.vitruna_footer-txt {
+     background: white;
+     width:100%;
+     margin: 0 auto;
+
+}
+.vitruna_general-gescrip hr {
+     width:270px;
+     height: 1px;
+     border: none;
+     background: rgba(120, 120, 120, 0.4);
+     margin-bottom: 15px;
+     margin-left: 0px;
+}
+}
+@media (max-width: 883px) {
+     main {
+          background: #ffffff;
+          width: 100%;
+     
+     }
+     .vitruna-container {
+          width: 100%;
+          margin: 0 auto;
+align-items: center;
+flex-direction: column;
+     }
+.vitruna_mb-block{
+     display: none;
+}
+#vitruna-mb-ad{
+     display: block;
+      margin: 0 auto;
+}
+.vitruna_white-element {
+     width: 400px;
+}
+.vitruna_short-descr div {
+     width: 374px;
+     font-family: Ubuntu;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 20px;
+     color: #000000;
+
+}
+.vitruna-buton{
+     width: 390px;
+}
+}
+@media (max-width: 458px) {
+     .slider-for {
+          width: 290px;
+         height: 210px;
+     }
+
+     .slider-for img {
+          width: 290px;
+          height: 210px;
+     }
+
+     .slider-nav {
+          margin-top: 14px;
+          width: 300px;
+          height: 50px;
+          margin-left: 0px;
+     }
+
+     .slider-nav img {
+          width: 56px;
+          height: 50px;
+     }
+
+     .vitruna-prev {
+
+          margin-top: 80px;
+
+     }
+
+     .vitruna-next {
+          margin-top: 80px;
+          margin-left: 235px;
+
+     }
+     
+.vitruna_description p {
+ 
+     width: 300px;
+  
+}
+ 
+
+.vitruna-left-contain {
+     width: 300px;
+} 
+ 
+.vitruna_short-descr div {
+     width: 300px;
+ 
+
+}
+.vitruna-buton{
+     width: 290px;
+}
+.vitruna_white-element {
+     width: 280px;
+}
+.vitruna_white-block{
+     width: 280px;
+}
+ 
+.vitruna-container {
+ 
+     padding-left: 0px;
+    
+}
+.vitruna_general-gescrip {
+     margin-top: -20px;
+     padding-left: 0px;
+
+}
+.vitruna_gen-icon{
+ position: relative;
+ padding-left: 8px;
+}
+.vitruna-berej{
+     position: absolute;
+     margin-top: -14px;
+     padding-left: 10px;
+}
+.vitruna_orient-menu{
+     width: 300px;
+}
+}

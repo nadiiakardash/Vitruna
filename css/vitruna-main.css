@@ -374,10 +374,9 @@ cursor: pointer;
     }
 }
 
-@media (max-width: 532px) {
+@media (max-width: 667px) {
     .vitruna_search-input input {
         width: 375px;
-
     }
     .vitruna_text-center {
         margin-top: -6px;

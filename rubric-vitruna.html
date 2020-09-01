@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина</title>
+    <link rel="stylesheet" href="css/vitrunahead.css">
+    <link rel="stylesheet" href="css/rubric-vitruna.css">
+    <link rel="stylesheet" href="css/vitruna-main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="js/vitruna.js"></script>
+</head>
+
+<body>
+    <header class="vitruna_header">
+        <div class="vitruna_header-block">
+            <div class="vitruna_left-num">
+                <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" fill="white" stroke="#666666" />
+                    <rect x="1" y="2" width="27" height="27" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0" transform="scale(0.00444444)" />
+                        </pattern>
+                        <image id="image0" width="225" height="225"
+                            xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAYAAAA+s9J6AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFHGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDIgNzkuMTYwOTI0LCAyMDE3LzA3LzEzLTAxOjA2OjM5ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIwLTA1LTE0VDIxOjE4OjMxKzAyOjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMC0wNS0xNFQyMToxOTozMyswMjowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMC0wNS0xNFQyMToxOTozMyswMjowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHBob3Rvc2hvcDpJQ0NQcm9maWxlPSJzUkdCIElFQzYxOTY2LTIuMSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDplYWRlNmI5Zi0zNTAx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" />
+                    </defs>
+                </svg>
+                <span class="vitruna_number">099 876 54 32, 099 876 54 32 <span>
+            </div>
+            <div class="vitruna_right-menu">
+                <img src="img/icon-person.png">
+                <span class="vitruna_right-txt">Реєстрація</span>
+                <img class="vitruna_enter-img" src="img/enter.png">
+                <span class="vitruna_right-txt">Вхід</span>
+            </div>
+            <div class="vitruna_advertising1">
+                <img class="vitruna_logo-kalush" src="img/vitr-kalush-img.png" alt="VitrunaKalush">
+                <img class="vitruna_img-advert" src="img/vodiy_ekspedytor.png" alt="advertising">
+            </div>
+            <div class="vitrula_bottom-menu">
+                <button class="vitruna_btn-head">подати оголошення</button>
+                <div class="vitruna-menu">
+                    <img src="img/menu-item.png">
+                    <li>розмістити рекламу</li>
+                    <li>довідник споживача</li>
+                    <li>про газету</li>
+                    <li>контакти</li>
+                </div>
+            </div>
+        </div>
+        <div class="vitruna_open-burger" onclick="openBurger()">
+            <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" fill="white" stroke="#666666" />
+                <rect x="6" y="8.40002" width="18" height="2.4" rx="1.2" fill="#666666" />
+                <rect x="6" y="12" width="18" height="2.4" rx="1.2" fill="#666666" />
+                <rect x="6" y="15.6" width="18" height="2.4" rx="1.2" fill="#666666" />
+                <rect x="6" y="19.2" width="18" height="2.4" rx="1.2" fill="#666666" />
+            </svg>
+        </div>
+        <div id="vitrunaNav">
+
+            <div id="vitruna-menu-burger">
+                <div class="vitruna_close-btn" onclick="closeBurger()"><svg width="31" height="30" viewBox="0 0 31 30"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="29" height="29" rx="4.5" fill="white" stroke="#666666" />
+                        <path
+                            d="M16.8323 14.9997L24.6199 22.7875C25.1267 23.2941 25.1267 24.1131 24.6199 24.6197C24.1134 25.1262 23.2943 25.1262 22.7877 24.6197L14.9999 16.8318L7.21229 24.6197C6.70548 25.1262 5.88667 25.1262 5.3801 24.6197C4.8733 24.1131 4.8733 23.2941 5.3801 22.7875L13.1677 14.9997L5.3801 7.21182C4.8733 6.70525 4.8733 5.8862 5.3801 5.37963C5.63256 5.12694 5.96449 5.00001 6.29619 5.00001C6.6279 5.00001 6.9596 5.12694 7.21229 5.37963L14.9999 13.1675L22.7877 5.37963C23.0404 5.12694 23.3721 5.00001 23.7038 5.00001C24.0355 5.00001 24.3672 5.12694 24.6199 5.37963C25.1267 5.8862 25.1267 6.70525 24.6199 7.21182L16.8323 14.9997Z"
+                            fill="#666666" />
+                    </svg></div>
+                <img class="vitruna_adapt-kalush" src="img/vitr-kalush-img.png"><br>
+                <li>головна</li>
+                <li>розмістити рекламу</li>
+                <li>довідник споживача</li>
+                <li>про газету</li>
+                <li>контакти</li>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="vitruna_phone-left">
+         </div>
+         <div class="vitruna_main-rubric">
+        <div class="vitruna_center-block">
+        <div class="vitruna_search-input">
+         <input placeholder="пошук оголошень">
+         <button><img src="img/search_img.png"></button>
+         </div>
+       <div onclick="chooseItem2()" class="vitruna_rubric-list">
+        <svg class="vitruna_icon-rubric" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="0.5" y="0.5" width="19" height="19" rx="4.5" fill="white" stroke="#666666"/>
+            <rect x="8" y="5" width="9" height="2" rx="1" fill="#666666"/>
+            <rect x="8" y="9" width="9" height="2" rx="1" fill="#666666"/>
+            <rect x="3" y="5" width="3" height="2" rx="1" fill="#666666"/>
+            <rect x="3" y="9" width="3" height="2" rx="1" fill="#666666"/>
+            <rect x="8" y="13" width="9" height="2" rx="1" fill="#666666"/>
+            <rect x="3" y="13" width="3" height="2" rx="1" fill="#666666"/>
+    </svg>
+    <span>вибрати рубрику</span>
+ 
+<svg id="vitruna_choose-elem2" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+<g>
+	<g>
+		<path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+			L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+			c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+			c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+			C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+	</g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+       </div>
+       <div id="vitruna_check-list">
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check1">
+            <label for="check1">Послуги</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check2">
+            <label for="check2">Нерухомість</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check3">
+            <label for="check3">Робота</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check4">
+            <label for="check4">Авто/Мото</label>
+        </div>
+
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check5">
+            <label for="check5">Ремонт і будівництво</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check6">
+            <label for="check6">Меблі</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check7">
+            <label for="check7">Інтер'єр та декор</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check8">
+            <label for="check8">Техніка</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check9">
+            <label for="check9">Обладнання</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check10">
+            <label for="check10">Ємності і тара</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check11">
+            <label for="check11">Сільське господарство</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check12">
+            <label for="check12">Тварини і рослини</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check13">
+            <label for="check13">Продукти харчування</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check14">
+            <label for="check14">Музичні інструменти</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check15">
+            <label for="check15">Спорт і туризм</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check16">
+            <label for="check16">Одяг та взуття</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check17">
+            <label for="check17">Краса та здоров'я</label>
+        </div>
+        <div onclick="buyCoost()" class="vitruna__checkfield">
+            <input type="checkbox" id="check18">
+            <label for="check18">Товари для дітей 
+                <svg fill="#666666" width="8px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+           <g>
+               <g>
+                   <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+                       L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+                       c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+                       c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+                       C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+               </g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           </svg></label>
+         
+        </div>
+        <div id="vitruna_buy-input" class="vitruna__checkfield vitruna_buy">
+            <input type="checkbox" id="check19">
+            <label for="check19">Куплю</label> 
+            <div onclick="Sell()" class="vitruna_list-margin" >
+            <input type="checkbox" id="check20">
+            <label for="check20">Продам
+                <svg fill="#666666" width="8px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+           <g>
+               <g>
+                   <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+                       L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+                       c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+                       c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+                       C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+               </g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           <g>
+           </g>
+           </svg>
+            </label>
+        </div>
+        <div id="vitruna_sell-input" class="vitruna__checkfield vitruna_buy">
+           <div class="vitruna_list-margin">
+            <input type="checkbox" id="check21">
+            <label for="check21">Візки/коляски</label></div>
+            <div class="vitruna_list-margin"> 
+            <input type="checkbox" id="check22">
+            <label for="check22">Одяг/взуття</label> </div>
+            <div class="vitruna_list-margin">
+            <input type="checkbox" id="check23">
+            <label for="check23">Ліжка/колиски</label> </div>
+            <div class="vitruna_list-margin">
+            <input type="checkbox" id="check24">
+            <label for="check24">Різне</label> </div>
+        </div>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check25">
+            <label for="check25">Книги та журнали</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check26">
+            <label for="check26">Різне</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check27">
+            <label for="check27">Загублене / знайдене</label>
+        </div>
+        <div class="vitruna__checkfield">
+            <input type="checkbox" id="check28">
+            <label for="check28">Знайомства</label>
+        </div>
+    </div>
+    <hr class="vitruna_rubric-hr vitruna-firsthr ">
+    <p onclick="Filter()" class="vitruna-left-title vitruna-filtr-mob">фільтр пошуку  <svg id="vitruna-icon_filter" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+   <g>
+       <g>
+           <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+               L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+               c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+               c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+               C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+       </g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   </svg></p>
+ <div id="vitruna_filter">
+    <div class="vitruna_price">
+        <p class="vitruna-left-title">Ціна</p>
+        <input class="vitruna_price-input" type="text" placeholder="від">
+        <input class="vitruna_price-input" type="text" placeholder="до">
+        <label for="">₴ (грн.)</label>
+        <div class="vitruna_price-check">
+            <input type="checkbox" id="check30" checked>
+            <label for="check30"></label>
+        </div>
+    </div>
+    <hr class="vitruna_rubric-hr">
+    <div onclick="chooseItemTime()" class="vitruna_filing-time" >
+        <p class="vitruna-left-title">час подачі
+            <svg id="vitruna_choose-elem3" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+       <g>
+           <g>
+               <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+                   L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+                   c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+                   c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+                   C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+           </g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       </svg></p>
+<div id="vitruna_alltime">
+
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check31">
+        <label for="check31">Усі</label>
+    </div>
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check32">
+        <label for="check32">За останні 24 години</label>
+    </div>
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check33">
+        <label for="check33">За останній тиждень</label>
+    </div>
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check34">
+        <label for="check34">За останні 4 тижні</label>
+    </div>
+</div>
+    </div>
+    <hr class="vitruna_rubric-hr">
+    <div onclick="chooseItemRegion()" class="vitruna_filing-time" >
+        <p class="vitruna-left-title">вибрати РЕГІОН
+            <svg id="vitruna_choose-elem4" width="10px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+       <g>
+           <g>
+               <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+                   L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+                   c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+                   c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+                   C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+           </g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       <g>
+       </g>
+       </svg></p>
+<div id="vitruna_region">
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check35">
+        <label for="check35">Усі</label>
+    </div>
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check36">
+        <label for="check36">Калуш</label>
+    </div>
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check37">
+        <label for="check37">Рожнятів</label>
+    </div>
+    <div class="vitruna__checkfield">
+        <input type="checkbox" id="check38">
+        <label for="check38">Долина</label>
+    </div>
+    <span class="vitruna_show-region">Показати всі регіони
+         <svg width="8px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 491.996 491.996" style="enable-background:new 0 0 491.996 491.996;" xml:space="preserve">
+   <g>
+       <g>
+           <path d="M484.132,124.986l-16.116-16.228c-5.072-5.068-11.82-7.86-19.032-7.86c-7.208,0-13.964,2.792-19.036,7.86l-183.84,183.848
+               L62.056,108.554c-5.064-5.068-11.82-7.856-19.028-7.856s-13.968,2.788-19.036,7.856l-16.12,16.128
+               c-10.496,10.488-10.496,27.572,0,38.06l219.136,219.924c5.064,5.064,11.812,8.632,19.084,8.632h0.084
+               c7.212,0,13.96-3.572,19.024-8.632l218.932-219.328c5.072-5.064,7.856-12.016,7.864-19.224
+               C491.996,136.902,489.204,130.046,484.132,124.986z"/>
+       </g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   <g>
+   </g>
+   </svg></span>
+</div>
+    </div>
+</div>
+<div  class="vitruna_ekspeduor">
+    <img src="img/ekspedutor.png">
+ </div>
+    <img class="vitruna_img-none" src="img/advert_left-list.png">
+    <div id="vetruna-adding_advert" class="vitruna_adver-advert">
+        <img src="img/advert-right1.png">
+        <img src="img/advert-right2.png">
+        <img src="img/advert-right3.png">
+    </div>       
+</div>
+    <div class="vitruna_container-main">
+    <div class="vitruna_orient-menu">
+        <img src="img/home-icon.png">
+        <li>/ Товари для дітей</li>
+        <li>/ Продам /</li>
+        <li><span>Візки/коляски</span></li>
+    </div>
+    <div>
+     <span class="vitruna-sort">сортування</span>
+     
+<div class="cont_heg_50"></div>
+
+<div class="cont_select_center">
+ 
+<div class="select_mate" data-mate-select="active" >
+<select name="" onchange="" onclick="return false;" id="">
+<option value="0">найновіші</option>
+<option value="2" >дешеві</option>
+<option value="3">дорогі</option>
+  </select>
+<p class="selecionado_opcion"  onclick="open_select(this)" ></p>
+<span onclick="open_select(this)" class="icon_select_mate" ><svg fill="#666666" height="12" viewBox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg">
+    <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+    <path d="M0-.75h24v24H0z" fill="none"/>
+</svg></span>
+<div class="cont_list_select_mate">
+  <ul class="cont_select_int">  </ul> 
+</div>
+  </div>
+</div> 
+<div class="vitruna_notice-block">
+    <h3>топ оголошення</h3>
+    <div class="vitruna_notice-element">
+       <div>
+        <div class="vitruna_top-text">ТОП</div>   
+        <img src="img/carriage1.png" alt="Коляска"></div>
+       <div class="vitruna_notice-txt">
+           <h4>Lorem ipsum</h4>
+           <h5>1500 грн.</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+      <p>
+          <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+          <img src="img/notice-person.png"><span>Олег Андрійович</span>
+
+        </p>
+        <button class="vitruna_notice-btn">Детальніше...</button>
+
+        </div>
+    </div>
+    <div class="vitruna_notice-element">
+        <div>
+         <div class="vitruna_top-text">ТОП</div>   
+         <img src="img/carriage2.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_notice-element">
+        <div>
+         <div class="vitruna_top-text">ТОП</div>   
+         <img src="img/carriage3.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_notice-element">
+        <div>
+         <div class="vitruna_top-text">ТОП</div>   
+         <img src="img/carriage4.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div>
+         <img class="vitruna_poseidon" src="img/poseidon.png">
+     </div>
+     <div class="vitruna-mobile-ad">
+         <img src="img/vitruna-mobilead1.png">
+         <img src="img/vitruna-mobile-ad2.png">
+     </div>
+     <div class="vitruna_notice-element vitruna_notice-last">
+        <div>
+         <div class="vitruna_top-text">ТОП</div>   
+         <img src="img/carriage5.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+</div>	
+<div class="vitruna_white-block">
+    <h3>оголошення</h3>
+    <div class="vitruna_white-element">
+       <div>
+      
+        <img src="img/no-photo.png" alt="Коляска"></div>
+       <div class="vitruna_notice-txt">
+           <h4>Lorem ipsum</h4>
+           <h5>1500 грн.</h5>
+           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+      <p>
+          <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+          <img src="img/notice-person.png"><span>Олег Андрійович</span>
+
+        </p>
+        <button class="vitruna_notice-btn">Детальніше...</button>
+
+        </div>
+    </div>
+    <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img class="vitruna-icon-clock" src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+     
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna-mobile-ad">
+         <img src="img/ad-kids0.png">
+         <img src="img/ad-kids-mob.png">
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+     
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div>
+         <img class="vitruna_poseidon" src="img/masterplus_26-05 1.png">
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna-mobile-ad">
+        <img src="img/vitruna-mobilead1.png">
+        <img src="img/vitruna-mobile-ad2.png">
+    </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div>
+        <img class="vitruna_poseidon" src="img/poseidon.png">
+    </div>
+    <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <h3>оголошення в інших регіонах</h3>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna-mobile-ad">
+        <img src="img/ad-kids0.png">
+        <img src="img/ad-kids-mob.png">
+    </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div>
+        <img class="vitruna_poseidon" src="img/masterplus_26-05 1.png">
+    </div>
+    <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna-mobile-ad">
+        <img src="img/vitruna-mobilead1.png">
+        <img src="img/vitruna-mobile-ad2.png">
+    </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div>
+        <img class="vitruna_poseidon" src="img/poseidon.png">
+    </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div id="vitruna_more-txt" class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...
+
+</p>
+<p  id="vitruna-big_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...Lorem ipsum dolor sit amet, consectetur dolore...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...
+</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/no-photo.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div class="vitruna_white-element">
+        <div>
+         <img src="img/carriage1.png" alt="Коляска"></div>
+        <div class="vitruna_notice-txt">
+            <h4>Lorem ipsum</h4>
+            <h5>1500 грн.</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+       <p>
+           <img src="img/notice-clock.png"><span>07.02.2020</span> <img class="vitruna_locat-icon" src="img/notice-location.png"><span>Бережниця, Калуш</span><br>
+           <img src="img/notice-person.png"><span>Олег Андрійович</span>
+ 
+         </p>
+         <button class="vitruna_notice-btn">Детальніше...</button>
+ 
+         </div>
+     </div>
+     <div>
+        <img class="vitruna_poseidon2" src="img/masterplus_26-05 1.png">
+    </div>
+    <div>
+        <img class="vitruna_poseidon2" src="img/poseidon.png">
+    </div>
+</div>	
+
+</div>
+<div class="vitruna-count-pages"> 
+    <svg class="vitruna-arrow_left" fill="#666666" height="19" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+        <path d="M7.41 7.84L12 12.42l4.59-4.58L18 9.25l-6 6-6-6z"/>
+        <path d="M0-.75h24v24H0z" fill="none"/>
+    </svg>
+<span>1</span>
+<span>2</span>
+<span>3</span>
+<span>4</span>
+<span>5</span>
+<span>6</span>
+<span>7</span>
+</div>
+    
+        </div>
+        <div class="vitruna_adver-advert">
+            <img src="img/advert-right1.png">
+            <img src="img/advert-right2.png">
+            <img src="img/advert-right3.png">
+        </div>
+        <div class="vitruna_bottom"></div>
+    </div>
+        <div class="vitruna_imgphone-right">
+        </div>
+
+    </main>
+    <footer class="vitruna_footer-txt">
+        <div>Сайт безкоштовних оголошень «вітрина». </div>
+        <div> Всі права захищені. </div>
+        <div> допомога зворотній звязок карта сайту блог політика конфіденційності</div>
+    </footer>
+</body>
+
+</html>
